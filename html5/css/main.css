@@ -1,0 +1,104 @@
+@charset "css";
+/*css Document*/
+*{
+	margin: 0;
+	padding: 0;
+	font-size: 12px;
+}
+
+body{
+	background-color: #F5F5F5;
+}
+.top{
+	width: 100%;
+	height: 27px;
+	background: url(../images/top_bg.jpg) repeat-x;
+}
+.top_content{
+	width: 1000px;
+	margin: 0 auto;
+}
+.top_content li{
+	list-style-image: url(../images/li_bg.gif);
+	float: right;
+	width: 75px;
+	line-height: 27px;
+}
+/*超链接的初始状态和访问之后的状态*/
+.top_content a:link,.top_content a:visited{
+	color: #8E8E8E;
+	text-decoration: none; 
+}
+/*超链接的鼠标经过的状态和经过之后的状态*/
+.top_content a:hover,.top_content a:active{
+	color: #900;
+	text-decoration: none;
+}
+
+.wrap{
+	width: 1000px;
+	margin: 0 auto;
+}
+.logo{
+	height: 80px;
+	background-color: #FFF; 
+}
+.logo_left{
+	width: 200px;
+	float: left;
+}
+.logo_right{
+	width: 300px;
+	height: 28px;
+	float: right;
+	margin-top: 30px;
+	color: #8E8E8E;
+}
+.logo_right img{
+	vertical-align: middle;
+	margin-right: 10px;
+}
+.tel{
+	font-family: "微软雅黑";
+	font-size: 16px;
+	color: #C00;
+}
+
+.nav{
+	height: 40px;
+}
+.nav_left{
+	width: 10px;
+	background: url(../images/nav_left.jpg) no-repeat;
+	float: left;
+	height: 40px;
+}
+.nav_middle{
+	width: 980px;
+	background: url(../images/nav_bg.jpg) repeat-x;
+	float: left;
+	height: 40px;
+}
+.nav_right{
+	width: 10px;
+	background: url(../images/nav_right.jpg) no-repeat;
+	float: left;
+	height: 40px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
