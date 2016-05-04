@@ -130,6 +130,33 @@ body{
 	overflow: hidden;
 }
 
+.main{
+	height: 250px;
+	background-color: #FFF;
+	margin-top: 5px;
+}
+.news{
+	width: 340px;
+	border: 1px solid #E8E8E8;
+	/*background-color: red;*/
+}
+.course{
+	width: 410px;
+	border: 1px solid #E8E8E8;
+	background-color: blue;
+	margin: 0 7px;
+}
+.sidear{
+	width: 230px;
+	border: 1px solid #E8E8E8;
+	background-color: green;
+}
+.news,.course,.sidear{
+	height: 250px;
+	float: left;
+}
+
+
 
 
 
