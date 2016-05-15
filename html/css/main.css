@@ -49,6 +49,7 @@ body{
 }
 .logo_mid{
 	width: 500px;
+	float: left;
 }
 .logo_mid h2{
 	font-family: "微软雅黑";
@@ -61,7 +62,7 @@ body{
 .logo_right{
 	width: 300px;
 	height: 28px;
-	float: right;
+	float: left;
 	margin-top: 30px;
 	color: #8E8E8E;
 }
@@ -71,10 +72,14 @@ body{
 }
 .tel{
 	font-family: "微软雅黑";
-	font-size: 16px;
+	font-size: 14px;
 	color: #C00;
 }
-
+.dlogo_last{
+	font-family: "微软雅黑";
+	font-size: 30px;
+	color: red;
+}
 .nav{
 	height: 40px;
 }
